@@ -1,0 +1,11 @@
+scenario,criterion,step,pass_rate,half_step,pass_rate_half_step,difference
+shift 1 mm,3%/3mm global,DTA/10,100.0,DTA/20,100.0,0.0
+shift 1 mm,2%/2mm global,DTA/10,100.0,DTA/20,100.0,0.0
+shift 1 mm,3%/3mm local,DTA/20,99.27,DTA/40,100.0,-0.73
+shift 4 mm,3%/3mm global,DTA/10,83.33,DTA/20,83.33,0.0
+shift 4 mm,2%/2mm global,DTA/10,80.52,DTA/20,80.53,-0.02
+scale +4%,3%/3mm global,DTA/10,39.62,DTA/20,39.62,0.0
+scale +4%,2%/2mm global,DTA/10,36.67,DTA/20,36.67,0.0
+scale +4%,3%/3mm local,DTA/20,39.62,DTA/40,39.62,0.0
+noise 1%,3%/3mm global,DTA/10,100.0,DTA/20,100.0,0.0
+noise 1%,2%/2mm global,DTA/10,100.0,DTA/20,100.0,0.0
