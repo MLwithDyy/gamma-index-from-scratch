@@ -66,3 +66,4 @@ All scenarios in a table and figure, expectations checked against results, runti
 | 15 November 2026 | Search step in the scenario script changed from DTA/5 to DTA/10 (global) and DTA/20 (local) | A development run at DTA/5 differed from DTA/10 by up to 4.8 percentage points for 2%/2 mm, and local gamma still changed from 95.5% to 99.3% between DTA/10 and DTA/20 |
 | 15 November 2026 | Pass means gamma <= 1 + 1e-9 | A 3% scale error against a 3% tolerance gave gamma = 1 + 9e-16 and a pass rate of about 50% from rounding alone |
 | 15 November 2026 | Disclosure | The scenario script was run during development, before this plan was committed, so the first results were seen before the expectations were checked |
+| 15 November 2026 | Add exploratory tests: 2% noise relative to the maximum value, 1% dose tolerance, and DTA ranging from 1.0 to 0.1 mm | Investigating the explanation for the high pass rate under noisy conditions; this was not included in the original plan |
