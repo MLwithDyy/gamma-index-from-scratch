@@ -1,3 +1,4 @@
+![tests](https://github.com/MLwithDyy/gamma-index-from-scratch/actions/workflows/tests.yml/badge.svg)
 # Gamma index from scratch
 
 A small, tested implementation of the gamma index (Low et al., 1998), the standard comparison used in radiotherapy quality assurance, with a study of how pass rates respond to controlled errors. A learning and demonstration project, not clinical software.
